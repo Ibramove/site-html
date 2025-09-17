@@ -1,8 +1,13 @@
 git init
+
 git remote add origin https://github.com/<user>/site-html.git
+
 git add .
+
 git commit -m "Ajout site HTML"
+
 git branch -M main
+
 git push -u origin main
 
 
@@ -19,4 +24,8 @@ oc expose service site-html
 # Récupérer l'URL et tester
 oc get route
 
+
+Déploiement réussi Bienvenue sur ma page !
+
+<img width="2985" height="732" alt="image" src="https://github.com/user-attachments/assets/ddb7a0fb-10c3-4085-8b0a-b75d6ff5d61f" />
 
